@@ -73,7 +73,7 @@ rangkuman fitur utama:
      
 cara penggunaan:
 
-"python scanwebvuln.py http://example.com -t 20 -o scan_results"
+"python scanwebvuln.py http://target -t 20 -o scan_results"
 
 opsi parameter:
 
