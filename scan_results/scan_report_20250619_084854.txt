@@ -1,0 +1,47 @@
+=== Web Vulnerability Scan Report ===
+Target: https://www.fiansiburian.my.id
+Start Time: 2025-06-19 08:48:54
+
+[INFO] Detecting technologies...
+[INFO] Detected technologies: web server: Vercel, React
+[INFO] Checking for WAF...
+[INFO] No WAF detected
+[INFO] Checking for rate limiting...
+[INFO] No significant rate limiting detected
+[INFO] Checking security headers...
+[MEDIUM] Missing security header: X-XSS-Protection
+Details: This header helps protect against various attacks.
+[MEDIUM] Missing security header: X-Content-Type-Options
+Details: This header helps protect against various attacks.
+[MEDIUM] Missing security header: X-Frame-Options
+Details: This header helps protect against various attacks.
+[MEDIUM] Missing security header: Content-Security-Policy
+Details: This header helps protect against various attacks.
+[MEDIUM] Missing security header: Referrer-Policy
+Details: This header helps protect against various attacks.
+[MEDIUM] Missing security header: Feature-Policy
+Details: This header helps protect against various attacks.
+[INFO] Starting crawl of https://www.fiansiburian.my.id (max depth: 3)
+[INFO] Crawling: https://www.fiansiburian.my.id (depth: 0)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/css/d264265ae0ac10ea.css (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/#contact (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id#projects (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/css/f76788cadc76491e.css (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/media/a34f9d1faa5f3315-s.p.woff2 (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/image?url=%2Fimages%2Fabout-image.webp&w=828&q=75 (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/chunks/webpack-f7839fef7bb435c2.js (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/ (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id#contact (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/chunks/fd9d1056-ce10fb260a17e333.js (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id#about (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/favicon.ico (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/chunks/596-739bdef9765d4601.js (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/chunks/main-app-a6fcb8f21de3abc1.js (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/media/github-icon.04fa7de0.svg (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/static/media/linkedin-icon.67ae5368.svg (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/_next/image?url=%2Fimages%2Ffian.jpg&w=1080&q=75 (depth: 1)
+[INFO] Crawling: https://www.fiansiburian.my.id/#about (depth: 2)
+[INFO] Crawling: https://www.fiansiburian.my.id/#projects (depth: 2)
+[INFO] Found 20 unique URLs to test
+[INFO] Testing XSS on https://www.fiansiburian.my.id/#about
