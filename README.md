@@ -4,7 +4,7 @@ SQLi
 LFI
 RCE
 SSRF
-tools ini masih tahap pengembangan,saya perlu belajar lebih dalam terlebih dahulu untuk pentesting atau dalam bidang sebagai black hat untuk memahmi struktur kejahatan cyber lebih dalam,mungkin akan ada sedikit masalah pada tools di saat di gunakan tapi tools ini tetao dapat bekerja untuk uji coba pentesting
+tools ini masih tahap pengembangan,saya perlu belajar lebih dalam terlebih dahulu untuk pentesting atau dalam bidang sebagai black hat untuk memahmi struktur kejahatan cyber lebih dalam,mungkin akan ada sedikit masalah pada tools di saat di gunakan tapi tools ini tetap dapat bekerja untuk uji coba pentesting
 
 rangkuman fitur utama:
    - Multi-threading:
