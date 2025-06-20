@@ -13,6 +13,7 @@ import threading
 import queue
 import urllib3
 import dns.resolver
+import html
 from urllib.parse import urljoin, urlparse, quote
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
