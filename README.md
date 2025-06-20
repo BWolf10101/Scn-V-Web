@@ -70,6 +70,10 @@ rangkuman fitur utama:
         Testing semua parameter URL untuk berbagai kerentanan
 
         Support GET dan POST parameters
+
+     install depedensi ini terlebih dahulu:
+     pip install requests fake-useragent colorama dnspython urllib3 cryptography
+     pip install requests beautifulsoup4 fake-useragent colorama urllib3
      
 cara penggunaan:
 
@@ -82,3 +86,5 @@ target       : URL target yang akan di-scan
 -t/--threads : Jumlah threads (default: 10)
 -o/--output  : Direktori output untuk laporan (default: reports)
 -to/--timeout: Timeout request dalam detik (default: 10)
+
+
